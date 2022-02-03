@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body {
+    font-size:100%;
+    background: rgb(131,58,180);
+    background: linear-gradient(197deg, rgba(131,58,180,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+.header-menu-image {
+    padding-left: 100px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px;
+    column-gap: 65px;  
+     
+}
+
+
+
+.header-menu-item {
+display: flex;
+padding-left: 50px;
+color: #ffff
+}
+
+.content {
+    border-top: 2px solid #a95edd;
+    align-items: center;
+    justify-content:space-around
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 80;
+    padding-left: 65px;
+    color: #ffff
+}
+
+.written-main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    color: #ffff 
+}
+
+.written-title-main-content {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 64px;
+}
+
+.written-title-main-content2 {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.written-button-main-content{
+background-color: #F7C223;
+width: 185; height: 40;
+border-radius: 30px;
+font-family: 'Josefin Sans', sans-serif;
+font-size: 20px;
+font-weight: 900;
+border: none;
+}
+
+.image-main-content {
+    padding-right: 100px;
+}
+
+.aside-content{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 160px;
+}
+.aside-title-content {
+    color: #ffff;
+    padding-top: 80;
+    font-size: 25;
+}
+.aside-content {
+    display: flex;
+    row-gap: 20px;
+    padding-top: 20px;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 20px;
+    color: #ffff
+}
+
+.footer {
+display: flex;
+align-items: center;
+padding-top: 80px;
+}
+
+.image-footer {
+    display: flex;
+    align-items: center;
+    padding-left: 600px;
+}
